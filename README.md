@@ -1,1 +1,1 @@
-# Jogo da Memória com javascrip html 5
+# Jogo da Memória com javascript html 5
