@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>Jogo da memória</title>
+	<script type="text/javascript" src="game.js"></script>
+  	<link  rel="stylesheet" href="game.css">
+</head>
+<body onload="GameControl.createGame()">
+
+	<div class="container">
+		<div  id="main" class="main">
+
+		<div id="control">
+			<input type="button"  class="button_game" value="Reiniciar" onclick="GameControl.createGame()"/> 
+		</div>
+		<div id="score"></div>
+		<div id="game"></div>
+		</div>	
+	</div>
+	
+</body>
+</html>
